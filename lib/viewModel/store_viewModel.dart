@@ -19,7 +19,7 @@ class StoreViewModel with ChangeNotifier {
   }
   Future fetch() async {
     isLoading = true;
-    //통지를 하면 Provider.of를 사용하고있는 build메소드가 재호출되면서
+    //notifyListeners()로 통지를 하면 Provider.of를 사용하고있는 build메소드가 재호출되면서
     //업데이트 된 값을 확인할수있다.
     notifyListeners();
 
