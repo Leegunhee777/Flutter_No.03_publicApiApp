@@ -1,6 +1,6 @@
 # mvvmpublicapi
 
-A new Flutter project.
+public API를 활용하여 마스트 재고를 알려주는 간단한 App
 
 ## Getting Started
 
